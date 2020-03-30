@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  position: relative;
+  background-color: #282c34;
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-self: center;
+  flex: auto;
+}
+
+.svgContainer {
+  width: 100%;
+}
+
+.svgContainer svg:hover {
+  outline: double;
+  outline-width: thick;
+  cursor: pointer;
+}
+
+.svgContainer svg:active {
+  outline-color: rgb(50, 167, 245);
+}
+
+.graphicContainer {
+  width: 200px;
+}

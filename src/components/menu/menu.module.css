@@ -1,0 +1,32 @@
+.menuContainer {
+    position: absolute;
+    padding: 0 1rem;
+    min-height: 100vh;
+    max-height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+.menuContainer ul {
+    padding: 0;
+}
+
+.menuContainer li {
+    list-style: none;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.menuContainer span {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background: white;
+}
+.menuContainer p {
+   margin: 0.5rem;
+}

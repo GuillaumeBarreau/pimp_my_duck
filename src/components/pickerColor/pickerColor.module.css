@@ -1,0 +1,7 @@
+.pickerColorContainer {
+  /* position: absolute; */
+  align-self: center;
+  max-width: 75px;
+  bottom: 1rem;
+  padding-top: 1rem;
+}
